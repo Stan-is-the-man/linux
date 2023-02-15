@@ -1,14 +1,2 @@
-from collections import deque
-
-people = deque()
-
-while True:
-    command = input()
-    if command == 'End':
-        print(people)
-        break
-    elif command == 'Paid':
-        while len(people):
-            print(f'Customer {people.popleft()} has been paid')
-    else:
-        people.append(command)
+matrix = [[j for j in range(5)] for i in range(10)]
+print(matrix)
