@@ -66,5 +66,16 @@ print(b,c)
 matrix = [[j for j in range(5)]for i in range(10)]
 print(matrix)
 #############
+x = lambda a: a ** a
 
+print(x(78))
+############
+def fact(n):
+    if n == 1:
+        return 1
+    return n * fact(n - 1)
+
+
+print(fact(4))
+###############33
 
